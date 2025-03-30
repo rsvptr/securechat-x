@@ -279,11 +279,3 @@ SecureChatX demonstrates a practical application of secure communication princip
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to reach out with any questions or suggestions. Enjoy using SecureChatX for secure, reliable communications!
-
----
-
-This README should now provide a very in-depth, human-written overview of the entire project, including all essential details, diagrams with image file names, and complete instructions on how to set up and run the application.
