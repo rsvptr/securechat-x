@@ -166,23 +166,23 @@ This combination of RSA and AES ensures that:
 Below are some of the most important diagrams that explain the design and operation of SecureChatX. For full documentation, please refer to the included PDF.
 
 ### High-Level Protocol Overview  
-**Image File:** `Images\Protocol_Overview.png`  
-![High-Level Protocol Overview](Images\Protocol_Overview.png)  
+**Image File:**   
+![High-Level Protocol Overview](Images/Protocol_Overview.png)  
 *Explanation:* This diagram provides a bird's-eye view of the entire protocol. It shows how clients connect to the server, exchange certificates, perform nonce-based key establishment, and finally send encrypted chat messages. It emphasizes that the server acts merely as a relay and never accesses the session key.
 
 ### Detailed Sequence Diagram for Key Establishment  
-**Image File:** `Images\Sequence_Diagram.png`  
-![Detailed Sequence Diagram](Images\Sequence_Diagram.png)  
+**Image File:**  
+![Detailed Sequence Diagram](Images/Sequence_Diagram.png)  
 *Explanation:* This diagram details the step-by-step exchange during the key establishment phase. It shows how Client A requests certificates, sends encrypted nonce challenges to Clients B and C, and then derives the shared session key by combining the received nonces.
 
 ### UML Class Diagram  
-**Image File:** `Images\Class_Diagram.png`  
-![UML Class Diagram](Images\Class_Diagram.png)  
+**Image File:**  
+![UML Class Diagram](Images/Class_Diagram.png)  
 *Explanation:* The UML diagram illustrates the relationships between the core classes in the application, including the base Entity class, Certificate management, Encryption functions, and the various Message types. This helps in understanding the overall architecture of the codebase.
 
 ### Detailed Cryptographic Operations Diagram  
-**Image File:** `Images\Cryptographic_Operations_Diagram.png`  
-![Detailed Cryptographic Operations Diagram](Images\Cryptographic_Operations_Diagram.png)  
+**Image File:** 
+![Detailed Cryptographic Operations Diagram](Images/Cryptographic_Operations_Diagram.png)  
 *Explanation:* This diagram focuses on the internal cryptographic operations. It shows how AES is used to encrypt/decrypt messages and how RSA is employed for encrypting nonce challenges and signing messages. The diagram demonstrates how digital envelopes are created to secure key transport.
 
 ---
