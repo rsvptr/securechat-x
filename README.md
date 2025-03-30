@@ -218,7 +218,7 @@ Below are some of the most important diagrams that explain the design and operat
 
 3. **(Optional) Regenerate Certificates:**
 
-   Pre-generated certificates and keys are provided. To regenerate them, delete the `Certs/` and `Keys/` folders and run:
+   Pre-generated certificates and keys are provided. To regenerate them, delete the files contained in the `Certs/` and `Keys/` folders and then run:
 
    ```bash
    python GenerateCertificates.py
