@@ -1,5 +1,4 @@
 # SecureChatX
----
 
 ## Table of Contents
 
