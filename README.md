@@ -19,7 +19,7 @@
 
 ## Introduction
 
-SecureChatX is designed to address the challenge of establishing secure communication channels over untrusted networks. In our application, three clients (A, B, and C) engage in an encrypted chat session by establishing a shared session key (K₍ₐᵦ𝚌₎) using a nonce-based key exchange protocol. All communications are routed through a central server that relays messages without accessing the session key, ensuring end-to-end encryption. Each participant—both clients and the server—possesses an RSA key pair and a digital certificate, providing robust authentication and integrity checks.
+SecureChat-X is designed to address the challenge of establishing secure communication channels over untrusted networks. In our application, three clients (A, B, and C) engage in an encrypted chat session by establishing a shared session key (K₍ₐᵦ𝚌₎) using a nonce-based key exchange protocol. All communications are routed through a central server that relays messages without accessing the session key, ensuring end-to-end encryption. Each participant—both clients and the server—possesses an RSA key pair and a digital certificate, providing robust authentication and integrity checks.
 
 ---
 
