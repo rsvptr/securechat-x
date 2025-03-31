@@ -31,13 +31,13 @@ In modern distributed systems, securing direct communications between clients, e
 - **Integrity:** Protect messages from tampering during transit.
 - **Key Establishment:** Provide a mechanism for clients to agree on a common session key without the server learning it.
 
-SecureChatX addresses these issues by using RSA for key transport and digital signatures, and AES for efficient symmetric encryption of messages.
+SecureChat-X addresses these issues by using RSA for key transport and digital signatures, and AES for efficient symmetric encryption of messages.
 
 ---
 
 ## How It Works
 
-The SecureChatX protocol comprises several phases:
+The SecureChat-X protocol comprises several phases:
 
 ### 1. Connection Phase
 - **Client Initiation:** Each client establishes a TCP connection to the server.
@@ -143,7 +143,7 @@ SecureChatApp
 
 ## Certificates and Cryptography
 
-SecureChatX uses:
+SecureChat-X uses:
 - **RSA:** 2048-bit keys are generated for each entity. RSA is used for:
   - Encrypting nonce challenges.
   - Wrapping keys in digital envelopes.
@@ -162,7 +162,7 @@ This combination of RSA and AES ensures that:
 
 ## Diagrams and Images
 
-Below are some of the most important diagrams that explain the design and operation of SecureChatX. For full documentation, please refer to the included PDF.
+Below are some of the most important diagrams that explain the design and operation of SecureChat-X. For full documentation, please refer to the included PDF.
 
 ### High-Level Protocol Overview  
 **Image File:**   
@@ -198,8 +198,8 @@ Below are some of the most important diagrams that explain the design and operat
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/SecureChatX.git
-   cd SecureChatX
+   git clone https://github.com/yourusername/SecureChat-X.git
+   cd SecureChat-X
    ```
 
 2. **Install Dependencies:**
@@ -254,7 +254,7 @@ For a complete explanation of the protocol design, cryptographic operations, and
 ## Security Analysis and Future Work
 
 ### Security Analysis
-SecureChatX is built to ensure:
+SecureChat-X is built to ensure:
 - **Confidentiality:** Only clients have access to the shared session key K₍ₐᵦ𝚌₎. The server only relays encrypted messages.
 - **Authentication & Integrity:** Digital signatures ensure that messages are authentic and have not been altered.
 - **Robust Key Establishment:** The nonce-based challenge-response protocol ensures that all parties contribute to the session key.
@@ -272,7 +272,7 @@ Possible improvements include:
 
 ## Conclusion
 
-SecureChatX demonstrates a practical application of secure communication principles. By leveraging RSA for key exchange and digital signatures, and AES for efficient message encryption, the system achieves end-to-end security without the central server ever accessing the session key. This project, developed as part of a Communication & Security Protocols course, highlights the importance of cryptographic techniques in building secure distributed applications.
+SecureChat-X demonstrates a practical application of secure communication principles. By leveraging RSA for key exchange and digital signatures, and AES for efficient message encryption, the system achieves end-to-end security without the central server ever accessing the session key. This project, developed as part of a Communication & Security Protocols course, highlights the importance of cryptographic techniques in building secure distributed applications.
 
 ---
 
