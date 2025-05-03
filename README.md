@@ -255,7 +255,7 @@ For a complete explanation of the protocol design, cryptographic operations, and
 
 ### Security Analysis
 SecureChat-X is built to ensure:
-- **Confidentiality:** Only clients have access to the shared session key K₍ₐᵦ𝚌₎. The server only relays encrypted messages.
+- **Confidentiality:** Only clients have access to the shared session key Kabc. The server only relays encrypted messages.
 - **Authentication & Integrity:** Digital signatures ensure that messages are authentic and have not been altered.
 - **Robust Key Establishment:** The nonce-based challenge-response protocol ensures that all parties contribute to the session key.
 
